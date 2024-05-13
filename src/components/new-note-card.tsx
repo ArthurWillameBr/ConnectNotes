@@ -121,14 +121,14 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     {" "}
                     gravando uma nota
                   </button>{" "}
-                  em áudio ou se preverir{" "}
+                  em áudio ou se preferir{" "}
                   <button
                     type="button"
                     onClick={handleStartEditor}
                     className="font-medium text-lime-400 hover:underline"
                   >
                     {" "}
-                    ultilize apenas texto{" "}
+                    utilize apenas texto{" "}
                   </button>
                 </p>
               ) : (
