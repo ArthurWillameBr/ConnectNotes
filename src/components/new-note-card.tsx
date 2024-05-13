@@ -46,7 +46,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
       "SpeechRecognition" in window || "webkitSpeechRecognition" in window;
 
     if (!isSpeedRecognitionAPIAvailable) {
-      alert("infelizmente seu navagador não suporta a API de gravação! ");
+      alert("infelizmente seu navegador não suporta a API de gravação! ");
       return;
     }
 
@@ -128,7 +128,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     className="font-medium text-lime-400 hover:underline"
                   >
                     {" "}
-                    utilize apenas texto{" "}
+                    tilize apenas texto{" "}
                   </button>
                 </p>
               ) : (
